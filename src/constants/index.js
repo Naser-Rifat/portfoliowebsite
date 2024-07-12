@@ -16,13 +16,17 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  tecnobz,
+  nexis,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  bookingDashboard,
+  tencobzWebsite,
+  shobcombd,
+  trackBooking,
+  hmsDashboard
 } from "../assets";
 
 export const navLinks = [
@@ -96,10 +100,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -118,53 +119,29 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Tecno BZ",
-    icon: starbucks,
+    icon: tecnobz,
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a frontend team at the ecommerce platform Shob.com.bd, with a focus on enhancing both user experience and product quality.",
+      "Integrated a Duplicate feature that reduces time, enhancing Challan and Order Tracking functionality of BookingMS.",
+      "Optimized State Management to streamline Booking processes, resulting in an increase in booking efficiency.",
+      "Developed KM Inventory System, reducing errors and boosting inventory turnover.",
+      "Technologies used: React, Next.js, TypeScript, Redux, React Query, Material UI, Ant Design, Tailwind, Qz Tray, Firebase."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Nexis Ltd",
+    icon: nexis,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leveraged GraphQL for HRManagement System, reducing data query time and increasing flexibility.",
+      "Developed a School Management System, resulting in a reduction in administrative tasks and an increase in data accuracy.",
+      "Created a digital menu system as a SaaS product, improving order processing efficiency and customer satisfaction.",
+      "Collaborated with the UI/UX team to develop HRManagement and Digital Menu systems, leading to faster development time and increase in user engagement.",
+      "Technologies used: React, Next.js, TypeScript, React Query, GraphQL, Material UI, Tailwind."
     ],
   },
 ];
@@ -197,17 +174,121 @@ const testimonials = [
 ];
 
 const projects = [
+
   {
-    name: "Car Rent",
+    name: "Shob.com.bd",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "B2B & B2C ecommerce platform that offers customers the ability to purchase products from Dubai, China, Malaysia, and Bangladesh in a single order.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: shobcombd,
+    source_code_link: "https://github.com/",
+  },
+
+  
+  ,
+  {
+    name: "KM Booking",
+    description:
+      "A multinational booking service managing bookings from Malaysia, Bangladesh, Dubai, and China, allowing customers to send products from one country to another.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "qztray",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: bookingDashboard,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Ultimate HRMS",
+    description:
+      "HR management system offering employee information, attendance tracking, request handling, reporting, real-time location, profiles, payroll generation, roster management, user permissions, and policy notices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: hmsDashboard,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Track Booking",
+    description:
+      "A real-time tracking system allowing customers to stay informed about their parcel delivery status every step of the way.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: trackBooking,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Tecno BZ ",
+    description:
+      "Official website for Tecno BZ, showcasing the company's products and services.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -215,51 +296,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: tencobzWebsite,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

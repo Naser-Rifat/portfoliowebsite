@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,12 +23,17 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tecnobz from "./company/tecnobz.png";
+import nexis from "./company/nexis.png";
+import bookingDashboard from "./booking-dashboard.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tencobzWebsite from "./tencobz-website.png";
+import shobcombd from "./shobcombd.jpg";
+import trackBooking from "./track-booking.jpg";
+import hmsDashboard from "./HMS-Dashboard.jpg";
 
 export {
   logo,
@@ -54,9 +59,14 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  tecnobz,
+  nexis,
   carrent,
   jobit,
   tripguide,
+  bookingDashboard,
+  tencobzWebsite,
+  shobcombd,
+  trackBooking,
+  hmsDashboard
 };
